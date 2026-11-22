@@ -38,7 +38,7 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react-swc": "^4.3.3",
-    "@wxt-dev/auto-icons": "^1.1.2",
+    "@wxt-dev/auto-icons": "^2.0.0",
     "@wxt-dev/module-react": "^1.1.5",
     "@wxt-dev/storage": "^1.2.9",
     "babel-plugin-react-compiler": "^1.0.0",
