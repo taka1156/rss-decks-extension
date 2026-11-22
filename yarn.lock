@@ -790,7 +790,7 @@
   resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-8.1.0.tgz#e1d9a43e3b9d0c7c4ea22d572b6abcf07ce083ef"
   integrity sha512-BNlUjp+9O6gtIHPVZEGFb5rgtuWW8weR+mSKfLOevxbfoZv5DRe3N4ZTEpXiIm5wfR7+kqHu8malCCgP6USrlg==
 
-"@nodable/entities@^3.0.1":
+"@nodable/entities@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@nodable/entities/-/entities-3.1.0.tgz#2ab366e0e607fdef8d65c5d84c58d191812bbd4b"
   integrity sha512-LsS/DjHr+uDM647Gru/cA8+J3a3HfhttwCKLyuoyN7yXTFCxKBtSgMQBvrW9yNPa2/zDRUNuGPaH5QUFoa4arQ==
@@ -2302,24 +2302,24 @@ fast-uri@^3.0.1:
   resolved "https://registry.yarnpkg.com/fast-uri/-/fast-uri-3.1.8.tgz#f7db8d942e20eead3cfe93b0beeb4eb0169e938b"
   integrity sha512-GZMtZUTNRpOVIECoXwLNZS5xUGE+mVNbTB8h/7Rwh2TFWcBQiPzTgyZi05BF9UMZKkLJv8XBRJTlU7zg8+ZfMg==
 
-fast-xml-builder@^1.2.0:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/fast-xml-builder/-/fast-xml-builder-1.3.1.tgz#ef05b353b45597483dfb09d450a062a2baec3a82"
-  integrity sha512-pIM/1n3ntFXKYrUZwW7QCK0gAW7XY+wzj1YMIV3tLDvPj/V+zTGJK5e3/4WJfwj0qWw2ElNXiTixda/R+3YSug==
+fast-xml-builder@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/fast-xml-builder/-/fast-xml-builder-1.3.2.tgz#08837335066983b7659f342ce1559869c068192e"
+  integrity sha512-OX91VSlShLPDgRZV7tk/YQ4l8tT75QziF5Ixg8g4PFbCVPjuTWwN+yQfAxLJ0dufJpprdOd6HlM74Jhd39TcBQ==
   dependencies:
     path-expression-matcher "^1.6.2"
     xml-naming "^0.3.0"
 
-fast-xml-parser@~5.11.1:
-  version "5.11.2"
-  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.11.2.tgz#0d4987adf4e7934af11d82a73b2841eca9928a42"
-  integrity sha512-R9iDuNrQYeQut46cn2r2wHKn4HYzVDvDm5J1wW+koZewykv0yuO2HChTYeZtrULyHIDM9cj9TUXloCsueCQUog==
+fast-xml-parser@~5.12.1:
+  version "5.12.1"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.12.1.tgz#a0f3ebed7a1107db9456c0dd0ed233cbc00ae709"
+  integrity sha512-wR8dO/fx+z8C5exuem1e7BKOWvjsuzvjS/tvA/Xu3Z1zQqJGcXrPzXbcAiaMgp2KjreEROcTkmnnisrcmJ2hYQ==
   dependencies:
-    "@nodable/entities" "^3.0.1"
-    fast-xml-builder "^1.2.0"
-    is-unsafe "^2.0.0"
+    "@nodable/entities" "^3.1.0"
+    fast-xml-builder "^1.3.2"
+    is-unsafe "^2.0.3"
     path-expression-matcher "^1.6.2"
-    strnum "^2.4.2"
+    strnum "^2.5.1"
     xml-naming "^0.3.0"
 
 fdir@^6.5.0:
@@ -2328,12 +2328,12 @@ fdir@^6.5.0:
   integrity sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==
 
 feedsmith@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/feedsmith/-/feedsmith-3.0.1.tgz#067b220f315bea30281e4d7888189aa6931bfd2c"
-  integrity sha512-P4puSPGXvIcA5wYvJJCap+nbO2tVemZ39fpkx68ZtkbAGtzw4eNJ0BDm8tLb25UWD8yL8j47eDG2uwfzprTiZA==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/feedsmith/-/feedsmith-3.1.0.tgz#bc4064cc02c31d1125535ebba13df406e91d8ef3"
+  integrity sha512-mE1VYFzNF1GOk89uUAqYBw7khYTO1rPsAusIM4uux4Ksz3RH3IuiDKg1jG/C+GQVsW7uqbXK761KQb1q381Iiw==
   dependencies:
     entities "^7.0.1"
-    fast-xml-parser "~5.11.1"
+    fast-xml-parser "~5.12.1"
 
 file-entry-cache@^8.0.0:
   version "8.0.0"
@@ -2644,10 +2644,10 @@ is-potential-custom-element-name@^1.0.1:
   resolved "https://registry.yarnpkg.com/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz#171ed6f19e3ac554394edf78caa05784a45bebb5"
   integrity sha512-bCYeRA2rVibKZd+s2625gGnGF/t7DSqDs4dP7CrLA1m7jKWz6pps0LpYLJN8Q64HtmPKJ1hrN3nzPNKFEKOUiQ==
 
-is-unsafe@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/is-unsafe/-/is-unsafe-2.0.2.tgz#bb1ead17f1aa688f6433258b561e98b1a45a1afc"
-  integrity sha512-HgbIHPBH0KHHCcjLfGsCvhtPTVxjaAZlXjwdz7/GQC40SjSe4sfQsar8J5VFo8JOSbarkpV0OLG95bbaNd9aAQ==
+is-unsafe@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/is-unsafe/-/is-unsafe-2.0.3.tgz#c8bc72c9d354dc9483dab9c26ff69bf5ec68d7b0"
+  integrity sha512-ZBllczCCO267vgdFb6Tq3pv+LhHaCiGMdr+ZsuL+OopruAg7S+3ZDs1vD0RPC0uSrkjzbraxaGjtX1YBxjPeFQ==
 
 is-utf8@^0.2.1:
   version "0.2.1"
@@ -3866,10 +3866,10 @@ strip-literal@^4.0.0:
   dependencies:
     js-tokens "^10.0.0"
 
-strnum@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/strnum/-/strnum-2.4.2.tgz#af43ab51a06d04227023fc2e42ca229214ec10f0"
-  integrity sha512-rDG3Ah4TV0k1hWvLSzkZtMmLN9+eS+h3knq4MP6A42Y3Yh5qGNnOUs1jJkoSr8FG5dsL28c7KgkIBzSEykqtuw==
+strnum@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/strnum/-/strnum-2.5.1.tgz#6b2f52021fa47589c3cf643afd80032dfa312b78"
+  integrity sha512-UM4nTLWzQiDBseVxUGxN0wJzIk0UU89Qi7pKXz9qISo+lhviJikTuikBsK/oFRlpvYHvSdz0TVoLyQ+sEpYwxA==
   dependencies:
     anynum "^1.0.1"
 
