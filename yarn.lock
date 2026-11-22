@@ -1239,12 +1239,19 @@
     defu "^6.1.4"
     sharp "^0.35.3"
 
-"@wxt-dev/browser@*", "@wxt-dev/browser@>=0.1":
+"@wxt-dev/browser@*":
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/@wxt-dev/browser/-/browser-0.3.4.tgz#a3905658cb1a3c0b40f063b614f5315fceff27ac"
   integrity sha512-NhLuaIz0LBwudxexRN/siiUOvVvwXhvYH6zM2GARG7Ag5UEpgpQV556vi7nzWPwR2ayBHD97mlodqd5OiOMg4Q==
   dependencies:
     "@types/filesystem" "*"
+    "@types/har-format" "*"
+
+"@wxt-dev/browser@>=0.1":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@wxt-dev/browser/-/browser-0.3.7.tgz#8ca7667bfbde0d86ad4a2c775a424639332f3be3"
+  integrity sha512-TCBcayayb2mycJxt9X3kTq3QZerqltx/I4FW1WVTafBcqQC6vUaDz5Sboummy0rVsSMbYzyKnS5118VTw0dt4A==
+  dependencies:
     "@types/har-format" "*"
 
 "@wxt-dev/module-react@^1.1.5":
@@ -1255,9 +1262,9 @@
     "@vitejs/plugin-react" "^4.4.1 || ^5.0.0 || ^6.0.0"
 
 "@wxt-dev/storage@^1.0.0", "@wxt-dev/storage@^1.2.9":
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/@wxt-dev/storage/-/storage-1.2.9.tgz#c73eceff6f8a0a5511ac4045ec96956f104baa59"
-  integrity sha512-dh9TJwvLBM2x4wyy9nE7eYE3wA8pgz1TXSyz7RbdjkJxLfFfWkbeIqiU7VkGy7Vx8sJBmQjoSpk9zSUb3Bjy0Q==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@wxt-dev/storage/-/storage-1.4.0.tgz#e7d0d337fa06dc5323be4b476a56d418be5f496c"
+  integrity sha512-nhJMgP/AO9YR7PPTOj+a0+xbr+5fxjyBghq3mImlRms+Dcxhy/e9kdYtviMgtSUIdKG0cWC9I87u5ajPQ4/2qA==
   dependencies:
     "@wxt-dev/browser" ">=0.1"
     superlock "^1.3.2"
@@ -3873,9 +3880,9 @@ stubborn-utils@^1.0.1:
   integrity sha512-zOh9jPYI+xrNOyisSelgym4tolKTJCQd5GBhK0+0xJvcYDcwlOoxF/rnFKQ2KRZknXSG9jWAp66fwP6AxN9STg==
 
 superlock@^1.3.2:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/superlock/-/superlock-1.3.5.tgz#6a88c168af2fbcd67267c13386daafc6e08c3a9c"
-  integrity sha512-XpWNthvezZnWp0u7/UL8rBbBOnq2Qx39fw+0RNMC/+eotOd81glzsmIWVH0ejarhTeDQihxOKSbjm2XXFo5a8w==
+  version "1.4.14"
+  resolved "https://registry.yarnpkg.com/superlock/-/superlock-1.4.14.tgz#b222a5c026b13a47248bc567eb4386c13cff0d55"
+  integrity sha512-2T3RH5NTmV20FWCBkX3svOxgjCbKyl1nBnNE3I/qLU+LBvjFQ5JP1JFw4ULhdElwr+/02V5h/nnf04KrtsBuHQ==
 
 supports-color@^7.1.0:
   version "7.2.0"
