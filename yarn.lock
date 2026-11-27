@@ -2612,9 +2612,9 @@ husky@^9.1.7:
   integrity sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==
 
 i18next@^27.0.0:
-  version "27.2.3"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-27.2.3.tgz#b054747781e9317d717af4237b00b7d8022d7894"
-  integrity sha512-14wcQLAu5Aykwk4scBGl8tosKYth4S2PQDcusbES/bUsQ7X7DbcPygMzCe298U/NcAvDpqr+CX6oygbQoyLBRA==
+  version "27.2.9"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-27.2.9.tgz#2a0bef580497c8b97786c4bbd0f9a5aecc920643"
+  integrity sha512-GOWWofCGYPSPEzUKJnRLJSoHrSUDa/NzYWqAOJJDZUaM7faLPd9VABlbHDZ+jv8uadu/fq1wsHFfZP6+0tFPkg==
 
 iconv-lite@0.6.3, iconv-lite@^0.6.3:
   version "0.6.3"
